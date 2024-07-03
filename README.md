@@ -98,7 +98,7 @@ Steps:
 | service              | AWS                                      | No       |                                                                                              |
 | notification_channel |                                          | Yes      |                                                                                              |
 | additional_tags      | []                                       | No       |                                                                                              |
-| locked               | True                                     | No       |                                                                                              |
+| restricted_roles     | []                                       | No       | A list of unique role identifiers to define which roles are allowed to edit the monitor      |
 | name_prefix          | ""                                       | No       |                                                                                              |
 | name_suffix          | ""                                       | No       |                                                                                              |
 
